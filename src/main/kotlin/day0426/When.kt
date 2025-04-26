@@ -10,11 +10,24 @@ fun main(){
 //       else -> print("주말")
 //    }
 
-    val message = when(day){
-        1 -> "월"
-        2 -> "화"
-        else -> "주말"
-    }
+//    val message = when(day){
+//        1 -> "월"
+//        2 -> "화"
+//        else -> "주말"
+//    }
 
-    print(message)
+//    print(message)
+
+//    when(day){
+//        in 1..5 -> print("평일")
+//        else -> print("주말")
+//    }
+
+    val age = 45
+
+    when{
+        age < 13 -> print("어린이")
+        age in 13.. 19 -> print("청소년")
+        else -> print("성인")
+    }
 }
