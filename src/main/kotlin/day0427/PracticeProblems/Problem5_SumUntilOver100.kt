@@ -14,6 +14,6 @@ fun main() {
         number++
     }
 
-    println("최종 숫자: $number")
+    println("최종 숫자: ${number - 1}")
     println("합계: $sum")
 }
