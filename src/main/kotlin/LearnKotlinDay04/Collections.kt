@@ -43,5 +43,30 @@ fun main(){
 //    println(colors.contains("Green"))
 
 //    Map
-
+//    // 불변형 Map 생성 (읽기 전용)
+//    val countryCode: Map<String, String> = mapOf(
+//        "KR" to "korea",
+//        "US" to "United State",
+//        "JP" to "Japan"
+//    )
+//
+//    // 가변형 Map 생성 (읽기/쓰기 가능)
+//    val studentScores: MutableMap<String, Int> = mutableMapOf(
+//        "JongHyun" to 90,
+//        "DongKhun" to 80,
+//        "JaeWoo" to 100
+//    )
+//
+//    // Map 요소 접근
+//    println(countryCode["KR"]) // Key 를 사용하여 값에 대해 접
+//
+//    // Map 요소 추가 (가변형만 가능)
+//    studentScores["SiWoo"] = 82
+//
+//    println(studentScores)
+//
+//    // Map 요소 제거 (가변형만 가능)
+//    studentScores.remove("DongKhun")
+//
+//    println(studentScores)
 }
